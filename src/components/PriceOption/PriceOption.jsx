@@ -3,6 +3,7 @@ import Feature from "../Feature/Feature";
 
 const PriceOption = ({ option }) => {
   const { name, price, features } = option;
+ 
   return (
     <div className="bg-blue-500 rounded-lg p-4 text-white flex flex-col">
       <h2 className="text-center">
@@ -12,14 +13,14 @@ const PriceOption = ({ option }) => {
       <h4 className="text-3xl text-center my-8">{name}</h4>
       <div className="flex-grow">
       {
-        features.map((feature,idx) => <Feature key={idx} feature={feature} ></Feature>)
+        features.map((feature,index) => <Feature key={index} feature={feature}></Feature>)
       }
       </div>
       <button className="btn mt-12 bg-primary PY-4 w-full border-0 text-white hover:bg-fuchsia-700">Buy Now</button>
     </div>
   );
 };
-PriceOption.prototypes = {
+PriceOption.propTypes = {
   option: PropTypes.object,
 };
 export default PriceOption;

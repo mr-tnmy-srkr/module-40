@@ -42,7 +42,7 @@ const PriceOptions = () => {
             "price": 80.00
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "Platinum Membership",
             "features": [
                 "Access to gym facilities",
@@ -56,7 +56,7 @@ const PriceOptions = () => {
             "price": 80.00
         },
             {
-            "id": 2,
+            "id": 5,
             "name": "Premium Membership",
             "features": [
                 "Access to gym facilities",
@@ -67,7 +67,7 @@ const PriceOptions = () => {
             ],
             "price": 50.00
         },{
-            "id": 1,
+            "id": 6,
             "name": "Basic Membership",
             "features": [
                 "Access to gym facilities",
