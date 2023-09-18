@@ -1,5 +1,6 @@
 
 import NavBar from "./components/NavBar/NavBar"
+import PriceOptions from "./components/PriceOptions/PriceOptions"
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
     <NavBar></NavBar>
-      
+      <PriceOptions></PriceOptions>
      
     </>
   )

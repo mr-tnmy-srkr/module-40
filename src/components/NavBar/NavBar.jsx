@@ -13,7 +13,7 @@ const NavBar = () => {
     { id: 5, path: "*", name: "NotFound" },
   ];
   return (
-    <nav className="text-black p-6 bg-yellow-400">
+    <nav className="text-black p-6 bg-yellow-300">
       <div className="md:hidden text-2xl" onClick={() => setOpen(!open)}>
         {
           open === true ?
